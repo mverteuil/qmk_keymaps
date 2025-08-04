@@ -1,0 +1,33 @@
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# QMK build artifacts
+.build/
+*.hex
+*.bin
+*.elf
+*.o
+*.d
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Other
+.env
