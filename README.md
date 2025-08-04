@@ -1,47 +1,29 @@
-# Matthew de Verteuil's QMK Keyboard Layouts
+# QMK Keymaps Collection
 
-This repository contains all my custom keyboard layouts for various keyboards.
+This repository contains my personal QMK keyboard layouts.
 
-## Overview
+## Keyboards
 
-### Ortholinear Keyboards
-- **Preonic**: Main keyboard with standard and 2x2u spacebar layouts
-- **Boardwalk**: 65% ortholinear keyboard with Ergodox-style thumb keys
+### Preonic
+- `mverteuil` - Standard Preonic layout with 1x2u spacebar
+- `mverteuil_mk2` - 2018 version with function row and numpad layer on tap dance key
+- `mverteuil_mk3` - 2019 version (identical to MK2 with updated copyright)
+- `mverteuil_2x2u` - Variant with two 2u keys (space and enter) in bottom row
+
+### Boardwalk
+- `mverteuil` - Custom layout for Boardwalk keyboard
 
 ### Macropads
-- **BM16S**: 16-key macropad
-- **Knops Mini**: 6-key macropad
-- **Binepad BN003**: 3-key macropad
+- `bm16s/mverteuil` - 16-key macropad layout
+- `bn003/mverteuil` - 3-key macropad layout
+- `bnr1/mverteuil_otter` - Rotary encoder layout for Otter
+- `bnr1/mverteuil_pagey` - Page control layout with rotary encoder
+- `dmq_spin/mverteuil` - Custom layout for DMQ Spin
+- `knops/mini/mverteuil` - Layout for Knops Mini macropad
 
-### Rotary Encoders
-- **Binepad BNR1**: Single rotary encoder with two variants:
-  - **Pagey**: Auto page scrolling
-  - **Otter**: Auto mouse movement
-- **DMQ SPIN**: Multi-function rotary encoder macropad
+## User Space
 
-## Features
-
-Most of my ortholinear keyboard layouts include:
-- Tap dance functionality for brackets, punctuation and special characters
-- LOWER and RAISE layers with layer-specific sounds
-- Media controls and navigation keys
-- RGB lighting controls when available
-
-## Building
-
-To build any of these keymaps with QMK:
-
-1. Clone this repository to `<qmk_firmware_dir>/users/mverteuil` and ensure the keyboard keymaps are in their proper directories
-2. Compile with QMK CLI: 
-```
-qmk compile -kb <keyboard> -km <keymap>
-```
-
-Example:
-```
-qmk compile -kb preonic/rev3 -km mverteuil
-```
-
-## License
-
-These keymaps are licensed under GPL-2.0, same as QMK firmware.
+The `users/mverteuil` directory contains shared code used across different keyboards:
+- Common macros
+- Shared defines
+- Audio configuration
