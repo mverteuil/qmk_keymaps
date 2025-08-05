@@ -11,10 +11,10 @@ This MK3 version of my Preonic layout represents a modern evolution of my keyboa
 
 ## Layout Details
 
-### Base Layer (QWERTY)
+### Base Layer (QWERTY) - Now with direct number access
 ```
 ,-----------------------------------------------------------------------------------.
-|   `  |   !  |   @  |   #  |   $  |   %  |   ^  |   &  |   *  | _  - | +  = | Bksp |
+|   `  |   1  |   2  |   3  |   4  |   5  |   6  |   7  |   8  |   9  |   0  | Bksp |
 |------+------+------+------+------+------+------+------+------+------+------+------|
 | Tab  |   Q  |   W  |   E  |   R  |   T  |   Y  |   U  |   I  |   O  |   P  | '  " |
 |------+------+------+------+------+-------------+------+------+------+------+------|
@@ -27,10 +27,12 @@ This MK3 version of my Preonic layout represents a modern evolution of my keyboa
 ```
 
 ### Key Improvements from MK2
+- Numbers on the top row for easier password entry
 - Space key now functions as both a Space key and a layer key
 - Enter key now functions as both Enter and Raise layer key
 - Mod-tap for Control/Escape reduces key usage
-- Enhanced function key and navigation placement
+- Function keys directly accessible on Raise layer (F1-F11 on top row, F13 on second row)
+- Symbol characters available on Lower layer
 
 ## Hardware
 This layout is designed for the OLKB Preonic keyboard with the standard 1x2u center spacebar layout.
