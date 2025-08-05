@@ -34,6 +34,9 @@ This MK3 version of my Preonic layout represents a modern evolution of my keyboa
 - Function keys directly accessible on Raise layer (F1-F10 on top row, F11-F13 on second row under their respective digits)
 - Symbol characters available on Lower layer (_+-= on JKLI position)
 - Linear arrow key arrangement on bottom right (Left, Down, Up, Right)
+- Media controls on Lower layer in intuitive positions:
+  - Inverted-T arrangement on WASD (W: Vol+, A: Prev, S: Vol-, D: Next)
+  - Play/Pause on F, Mute on R, Stop on V
 
 ## Hardware
 This layout is designed for the OLKB Preonic keyboard with the standard 1x2u center spacebar layout.
