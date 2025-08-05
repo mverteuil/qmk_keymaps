@@ -1,0 +1,42 @@
+# Preonic MK1 Keyboard Layout
+
+This MK1 version of my Preonic layout represents a modern evolution of my keyboard layout with several key improvements.
+
+## Key Features
+
+- **Layer-Tap Integration**: Space key activates Lower layer when held, Enter key activates Raise layer when held
+- **Modern Tap-Dance Usage**: Multi-function brackets (tap once for parentheses, twice for brackets, thrice for braces)
+- **Clean Layer Design**: Function keys only on Raise layer, simplified Numpad and Lower layers
+- **Enhanced Navigation**: Linear arrow key arrangement (←↓↑→) for better ergonomics
+
+## Layout Details
+
+### Base Layer (QWERTY) - Now with direct number access
+```
+,---------------------------------------------------------------------------------------.
+|   `  |   1  |   2  |   3  |   4  |   5  |   6  |   7  |   8  |   9  |   0  | Bksp    |
+|------+------+------+------+------+------+------+------+------+------+------+---------|
+| Tab  |   Q  |   W  |   E  |   R  |   T  |   Y  |   U  |   I  |   O  |   P  | '  "    |
+|------+------+------+------+------+-------------+------+------+------+------+---------|
+|CtlEsc|   A  |   S  |   D  |   F  |   G  |   H  |   J  |   K  |   L  | ;  : | Enter   |
+|------+------+------+------+------+------|------+------+------+------+------+---------|
+| Shift|   Z  |   X  |   C  |   V  |   B  |   N  |   M  |   ,  |   .  | /  ? | Shift   |
+|------+------+------+------+------+------+------+------+------+------+------+---------|
+|Numpad| Ctrl | Alt  | GUI  |Lower |Space/Lower |Raise/Enter| Left | Down |  Up  | Right|
+`---------------------------------------------------------------------------------------'
+```
+
+### Key Improvements from MK2
+- Numbers on the top row for easier password entry
+- Space key now functions as both a Space key and a layer key
+- Enter key now functions as both Enter and Raise layer key
+- Mod-tap for Control/Escape reduces key usage
+- Function keys directly accessible on Raise layer (F1-F10 on top row, F11-F13 on second row under their respective digits)
+- Symbol characters available on Lower layer (_+-= on JKLI position)
+- Linear arrow key arrangement on bottom right (Left, Down, Up, Right)
+- Media controls on Lower layer in intuitive positions:
+  - Inverted-T arrangement on WASD (W: Vol+, A: Prev, S: Vol-, D: Next)
+  - Play/Pause on F, Mute on R, Stop on V
+
+## Hardware
+This layout is designed for the OLKB Preonic keyboard with the standard 1x2u center spacebar layout.
