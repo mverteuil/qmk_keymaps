@@ -6,7 +6,7 @@ This MK3 version of my Preonic layout represents a modern evolution of my keyboa
 
 - **Layer-Tap Integration**: Space key activates Lower layer when held, Enter key activates Raise layer when held
 - **Modern Tap-Dance Usage**: Multi-function brackets (tap once for parentheses, twice for brackets, thrice for braces)
-- **Streamlined Numpad/Function Key Access**: Direct access to function keys in numpad layer
+- **Clean Layer Design**: Function keys only on Raise layer, simplified Numpad and Lower layers
 - **Enhanced Navigation**: Linear arrow key arrangement (←↓↑→) for better ergonomics
 
 ## Layout Details
