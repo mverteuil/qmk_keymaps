@@ -15,6 +15,7 @@
  */
 #include QMK_KEYBOARD_H
 #include "muse.h"
+#include "users/mverteuil/mverteuil.h"
 
 /* Layer Aliases */
 #define LT_LWSP LT(_LOWER, KC_SPACE)  // Space key, Lower layer when held
