@@ -31,7 +31,7 @@ This MK3 version of my Preonic layout represents a modern evolution of my keyboa
 - Space key now functions as both a Space key and a layer key
 - Enter key now functions as both Enter and Raise layer key
 - Mod-tap for Control/Escape reduces key usage
-- Function keys directly accessible on Raise layer (F1-F11 on top row, F13 on second row)
+- Function keys directly accessible on Raise layer (F1-F10 on top row, F11-F13 on second row under their respective digits)
 - Symbol characters available on Lower layer
 
 ## Hardware
