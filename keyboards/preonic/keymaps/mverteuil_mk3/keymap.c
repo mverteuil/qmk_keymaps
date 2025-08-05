@@ -153,8 +153,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+-------------+------+------+------+------+------|
  * |      |  F1  |  F2  |  F3  | Vol+ |      |      |      |      |      | Play |      |
  * |------+------+------+------+------+-------------+------+------+------+------+------|
- * |      |  F4  |  F5  |  F6  | Vol- |      |   ?  |   _  |   +  |      |      |      |
- * |------+------+------+------+------+------|------+------+------+------+------+------|
+  * |      |  F4  |  F5  |  F6  | Vol- |      |      |   _  |   +  |   -  |   =  |      | * |------+------+------+------+------+------|------+------+------+------+------+------|
  * |      |  F7  |  F8  |  F9  | Prev | Next |      | Mute |      |      | PgUp |      |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
  * |RGBmod| F10  | F11  | F12  |      |             |      |   \  | Home | PgDn | End  |
@@ -163,7 +162,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_LOWER] = LAYOUT_preonic_1x2uC (
   KC_TILD, KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_DEL,
   _______, KC_F1,   KC_F2,   KC_F3,   KC_VOLU, _______, _______, _______, _______, _______, KC_MPLY, _______,
-  _______, KC_F4,   KC_F5,   KC_F6,   KC_VOLD, _______, KC_QUES, KC_UNDS, KC_PLUS, _______, _______, _______,
+  _______, KC_F4,   KC_F5,   KC_F6,   KC_VOLD, _______, _______, KC_UNDS, KC_PLUS, KC_MINS, KC_EQL,  _______,
   _______, KC_F7,   KC_F8,   KC_F9,   KC_MPRV, KC_MNXT, _______, KC_MUTE, _______, _______, KC_PGUP, _______,
   _______, KC_F10,  KC_F11,  KC_F12,  _______,     _______,      _______, KC_BSLS, KC_HOME, KC_PGDN, KC_END
 ),
