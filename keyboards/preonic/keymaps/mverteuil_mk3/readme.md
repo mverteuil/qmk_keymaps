@@ -7,7 +7,7 @@ This MK3 version of my Preonic layout represents a modern evolution of my keyboa
 - **Layer-Tap Integration**: Space key activates Lower layer when held, Enter key activates Raise layer when held
 - **Modern Tap-Dance Usage**: Multi-function brackets (tap once for parentheses, twice for brackets, thrice for braces)
 - **Streamlined Numpad/Function Key Access**: Direct access to function keys in numpad layer
-- **Enhanced Navigation**: Inverted-T arrow key layout (L D U R) for better ergonomics
+- **Enhanced Navigation**: Linear arrow key arrangement (←↓↑→) for better ergonomics
 
 ## Layout Details
 
@@ -33,7 +33,7 @@ This MK3 version of my Preonic layout represents a modern evolution of my keyboa
 - Mod-tap for Control/Escape reduces key usage
 - Function keys directly accessible on Raise layer (F1-F10 on top row, F11-F13 on second row under their respective digits)
 - Symbol characters available on Lower layer (_+-= on JKLI position)
-- Ergonomic inverted-T arrow key cluster on bottom right (Left, Down, Up, Right)
+- Linear arrow key arrangement on bottom right (Left, Down, Up, Right)
 
 ## Hardware
 This layout is designed for the OLKB Preonic keyboard with the standard 1x2u center spacebar layout.
